@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Caches
+.pytest_cache/
+.vscode/
+.idea/
+
+# Large Datasets (>100MB GitHub limit)
+dataverse_files/*.csv
+
+# Generated Binary Artifacts (built locally via python run_pipeline.py)
+artifacts/*.joblib
+!artifacts/.gitkeep
+outputs/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
